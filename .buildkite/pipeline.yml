@@ -1,0 +1,6 @@
+env:
+  FORCE_COLOR: '1'
+
+steps:
+  - command: ./.buildkite/upstream.sh
+    label: ':git:'
