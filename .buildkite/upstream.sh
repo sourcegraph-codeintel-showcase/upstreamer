@@ -21,7 +21,7 @@ git rebase upstream/master master
 
 # Push n+1 commits to the showcase repository
 # This requires a special private key on the buildkite agents
-GIT_SSH_COMMAND='ssh -i /buildkite/.ssh/codeintel_showcase_upstreamer -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' \
+GIT_SSH_COMMAND="ssh -i /buildkite/.ssh/codeintel_showcase_upstreamer.$NAME -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" \
     git push origin master --force
 
 popd
