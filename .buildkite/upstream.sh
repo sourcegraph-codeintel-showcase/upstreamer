@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -e
+set -ex
 
 OWNER="${1:?missing owner}"
 NAME="${2:?missing name}"
