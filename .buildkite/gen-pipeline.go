@@ -25,8 +25,13 @@ var repos = []repoPair{
 	{"gohugoio", "hugo"},
 	{"aws", "aws-sdk-go"},
 	{"moby", "moby"},
-	{"prometheus", "prometheus"},
-	{"ReactiveX", "RxJS"},
+	// {"prometheus", "prometheus"},
+	// {"ReactiveX", "RxJS"},
+	// {"sindresorhus", "got"},
+	// {"angular", "angular"},
+	// {"Microsoft", "TypeScript"},
+	// {"lodash", "lodash"},
+	// {"moment", "moment"},
 }
 
 func main() {
