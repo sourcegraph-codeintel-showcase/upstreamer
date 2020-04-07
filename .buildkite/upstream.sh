@@ -10,5 +10,5 @@ pushd "$NAME"
 git remote add upstream https://github.com/$OWNER/$NAME.git
 git fetch upstream master
 git rebase upstream/master master
-git push origin master --force
+GIT_SSH_COMMAND='ssh -i /buildkite/.ssh/codeintel_showcase_upstreamer -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no' git push origin master --force
 popd
