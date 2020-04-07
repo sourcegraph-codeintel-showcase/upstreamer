@@ -3,4 +3,4 @@
 set -e
 cd $(dirname "${BASH_SOURCE[0]}")/..
 
-cat ./.buildkite/pipeline.yml
+go run ./.buildkite/gen-pipeline.go
