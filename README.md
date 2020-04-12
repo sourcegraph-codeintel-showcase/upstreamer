@@ -15,6 +15,6 @@ ssh-keygen -t rsa -b 1096 -C "you@sourcegraph.com"
 ```
 
 2. Add the public key as a deploy key in the forked repository's settings. Ensure that the `Allow write access` option is checked.
-3. Add the secret key to the BuildKite agent's [SSH directory](https://github.com/sourcegraph/infrastructure/blob/master/kubernetes/ci/buildkite/buildkite-agent/buildkite-ssh.Secret.yaml#L6).
+3. Add the secret key to the BuildKite agent's [SSH directory](https://github.com/sourcegraph/infrastructure/blob/48a0442c2878910f4ab8769e450b5d227fa2745b/kubernetes/ci/buildkite/buildkite-agent/buildkite-ssh.Secret.yaml#L7).
 4. Update to BuildKite according to the [instructions](https://github.com/sourcegraph/infrastructure/blob/master/kubernetes/ci/README.md).
 5. Add the fork's name and original owner to the map in [gen-pipeline.go](./.buildkite/gen-pipeline.go) and push to master to trigger a new build.
