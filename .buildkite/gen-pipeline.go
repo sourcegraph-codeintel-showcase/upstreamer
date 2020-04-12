@@ -22,16 +22,26 @@ type repoPair struct {
 }
 
 var repos = []repoPair{
-	{"gohugoio", "hugo"},
+	{"prometheus", "prometheus"},
+	{"Microsoft", "TypeScript"},
 	{"aws", "aws-sdk-go"},
+	{"gohugoio", "hugo"},
+	{"express", "express"},
+	{"facebook", "react"},
+	{"grafana", "grafana"},
+	{"helm", "helm"},
+	{"facebook", "jest"},
 	{"moby", "moby"},
-	// {"prometheus", "prometheus"},
-	// {"ReactiveX", "RxJS"},
-	// {"sindresorhus", "got"},
-	// {"angular", "angular"},
-	// {"Microsoft", "TypeScript"},
-	// {"lodash", "lodash"},
-	// {"moment", "moment"},
+	{"elastic", "kibana"},
+	{"ReactiveX", "IxJS"},
+	{"kubernetes", "kubernetes"},
+	{"etcd-io", "etcd"},
+	{"golang", "go"},
+	{"lodash", "lodash"},
+	{"moment", "moment"},
+	{"sindresorhus", "got"},
+	{"angular", "angular"},
+	{"ReactiveX", "rxjs"},
 }
 
 func main() {
