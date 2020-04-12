@@ -11,7 +11,7 @@ To add a fork to the upstreamer pipeline, perform the following steps:
 1. Generate a new RSA key pair as follows:
 
 ```
-ssh-keygen -t rsa -b 1096 -C "you@sourcegrpah.com"
+ssh-keygen -t rsa -b 1096 -C "you@sourcegraph.com"
 ```
 
 2. Add the public key as a deploy key in the forked repository's settings. Ensure that the `Allow write access` option is checked.
