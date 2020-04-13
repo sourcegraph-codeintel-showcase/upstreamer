@@ -26,7 +26,7 @@ var repos = []repoPair{
 	{"Microsoft", "TypeScript"},
 	{"aws", "aws-sdk-go"},
 	{"gohugoio", "hugo"},
-	{"express", "express"},
+	{"expressjs", "express"},
 	{"facebook", "react"},
 	{"grafana", "grafana"},
 	{"helm", "helm"},
