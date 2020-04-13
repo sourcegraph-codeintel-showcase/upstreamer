@@ -9,15 +9,16 @@ git clone "git@github.com:sourcegraph-codeintel-showcase/$NAME.git"
 pushd "$NAME"
 
 # Fetch upstream changes
+DEFAULT_BRANCH=`git symbolic-ref --short HEAD`
 git remote add upstream git@github.com:$OWNER/$NAME.git
-git fetch upstream master
+git fetch upstream "$DEFAULT_BRANCH"
 
 # Set git identity for following rebase command
 git config user.name "Codeintel showcase upstreamer"
 git config user.email "codeintel-showcase-upstreamer@sourcegraph.com"
 
 # Re-apply LSIF upload commit
-git rebase upstream/master master
+git rebase upstream/"$DEFAULT_BRANCH" "$DEFAULT_BRANCH"
 
 # Push n+1 commits to the showcase repository
 # This requires a special private key on the buildkite agents
