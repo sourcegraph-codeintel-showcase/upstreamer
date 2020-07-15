@@ -13,6 +13,7 @@ Each fork contains a series of commits on top of the upstream master that change
 - [kubernetes/kubernetes](https://github.com/sourcegraph-codeintel-showcase/kubernetes) - [workflow](https://github.com/sourcegraph-codeintel-showcase/kubernetes/actions?query=workflow%3A%22Index+and+upload+LSIF+data+to+sourcegraph.com%22)
 - [lodash/lodash](https://github.com/sourcegraph-codeintel-showcase/lodash) - [workflow](https://github.com/sourcegraph-codeintel-showcase/lodash/actions?query=workflow%3A%22Index+and+upload+LSIF+data+to+sourcegraph.com%22)
 - [moby/moby](https://github.com/sourcegraph-codeintel-showcase/moby) - [workflow](https://github.com/sourcegraph-codeintel-showcase/moby/actions?query=workflow%3A%22Index+and+upload+LSIF+data+to+sourcegraph.com%22)
+- [golang/go](https://github.com/sourcegraph-codeintel-showcase/go) - [workflow](https://github.com/sourcegraph-codeintel-showcase/go/actions?query=workflow%3A%22Index+and+upload+LSIF+data+to+sourcegraph.com%22)
 
 ### Travis CI
 
